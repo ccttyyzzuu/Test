@@ -1,4 +1,4 @@
-package com.daifei.cengkeacticity;
+﻿package com.daifei.cengkeacticity;
 
 import com.example.feralapp.R;
 
@@ -12,7 +12,7 @@ import android.widget.TextView;
 /**
  * ��������
  * @author Administrator
- *
+ *   
  */
 public class PersonCenterActivity extends Activity {
 	
