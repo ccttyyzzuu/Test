@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import com.example.feralapp.R;
 import com.example.model.CircleData;
-
+   
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
