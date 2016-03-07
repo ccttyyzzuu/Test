@@ -12,7 +12,7 @@ import android.widget.TextView;
 /**
  * ��������
  * @author Administrator
- *      
+ *   dhasdfa   
  */
 public class PersonCenterActivity extends Activity {
 	
