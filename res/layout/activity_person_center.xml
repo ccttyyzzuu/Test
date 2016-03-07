@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView android:id="@+id/person_center_pre_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/rub_course_back_icon"/>
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="个人中心"/>
+    </LinearLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/rub_course_user_temp_bg">
+        <ImageView
+            android:id="@+id/person_center_head"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+
+        <TextView android:id="@+id/person_center_register_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/person_center_head"
+            android:background="@drawable/about_us_image_style"
+            android:textColor="#ffffff"
+            android:text="登录|注册"/>
+    </RelativeLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/person_center_subscribe" 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="预约"/>
+        <View android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:background="#C7C6C6"/>
+        
+        <TextView android:id="@+id/person_center_accept_sucessful"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+             android:padding="5dp"
+            android:layout_weight="1"
+            android:text="受理成功"/>
+        <View android:layout_width="1dp"
+            android:layout_height="15dp"
+            android:background="#C7C6C6"/>
+        
+        <TextView 
+            android:id="@+id/person_center_post"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+             android:padding="5dp"
+            android:layout_weight="1"
+            android:text="发帖"/>
+        </LinearLayout>
+        
+    <View android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#7C7876"
+        />
+    <!-- 报名记录 -->
+    <TextView android:id="@+id/person_center_my_apply_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/rub_course_mine_apply_record_icon"
+        android:drawableRight="@drawable/rub_course_go_to_next_right"
+        android:text="我的报名记录"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7C7876"
+        />
+    <!--我的帖子  -->
+    <TextView android:id="@+id/person_center_my_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/rub_course_mine_posts"
+        android:drawableRight="@drawable/rub_course_go_to_next_right"
+        android:text="我的帖子"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7C7876"
+        />
+    <!-- 我的收藏 -->
+    <TextView android:id="@+id/person_center_my_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/rub_course_mine_collect_lesson"
+        android:drawableRight="@drawable/rub_course_go_to_next_right"
+        android:text="我的收藏"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7C7876"
+        />
+    <!--消息  -->
+    <TextView android:id="@+id/person_center_my_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/rub_course_mine_apply_record_icon"
+        android:drawableRight="@drawable/rub_course_go_to_next_right"
+        android:text="消息"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7C7876"
+        />
+    <!--设置  -->
+    <TextView android:id="@+id/person_center_my_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/rub_course_mine_settings_icon"
+        android:drawableRight="@drawable/rub_course_go_to_next_right"
+        android:text="设置"/>
+    <View android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#C7C6C6"/>
+</LinearLayout>

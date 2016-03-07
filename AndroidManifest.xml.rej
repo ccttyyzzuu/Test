@@ -1,0 +1,44 @@
+diff a/AndroidManifest.xml b/AndroidManifest.xml	(rejected hunks)
+@@ -9,6 +9,7 @@
+         android:targetSdkVersion="18" />
+ 
+     <application
++        android:name="com.example.activity.MyApplication"
+         android:allowBackup="true"
+         android:icon="@drawable/ic_launcher"
+         android:label="@string/app_name"
+@@ -27,7 +28,8 @@
+         </activity>
+         <activity android:name="com.example.activity.MusicCourseListActivity" >
+         </activity>
+-        <activity android:name="com.example.activity.ShouYeActivity" >
++        <activity android:name="com.example.activity.ClassifyActivity" >
++             
+         </activity>
+         <activity android:name="com.example.activity.MyRegisterRecordActivity" >
+         </activity>
+@@ -44,16 +46,19 @@
+            
+         </activity>
+         <activity android:name="com.example.activity.QuanZiDetailActivity">
+-             <intent-filter>
+-                <action android:name="android.intent.action.MAIN" />
+-
+-                <category android:name="android.intent.category.LAUNCHER" />
+-            </intent-filter>
++            
+         </activity>
+ 
+         
+         <activity android:name="com.example.activity.lLoginAndRegisteActivity"></activity>
+         <activity android:name="com.example.activity.SetNewPassword"></activity>
++        <activity android:name="com.example.activity.MainActivity">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
+ 
+     </application>
+     

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainJu">#fa7122</color>
+    <color name="mainHong">#f50723</color>
+    <color name="minorHong">#f53907</color>
+    <color name="minorJu">#ff8417</color>
+    <color name="minorLv">#7fc41c</color>
+    <color name="minorLan">#5aacec</color>
+    <color name="minorZi">#f53f99</color>
+    <color name="beijingse">#EEEEEE</color>
+    <color name="zhengwen2">#686868</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="cijititle">#051B28</color>
+</resources>

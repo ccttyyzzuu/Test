@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+        <View android:id="@+id/item_line"
+            android:layout_width="2dp"
+             android:layout_height="30dp"
+             android:background="@color/red"/>
+        
+        <TextView android:layout_marginLeft="10dp"
+            android:id="@+id/course_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="音乐类"
+            android:textColor="@color/body_24"
+            android:textSize="24sp"/>
+        <TextView 
+            android:id="@+id/course_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多"
+            android:gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="20sp"/>
+        
+        <TextView android:layout_marginRight="5dp"
+            android:id="@+id/course_more_butn"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/rub_course_more_icon"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/course_img_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView android:id="@+id/grade_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二胡十段兴趣班"
+            android:textSize="16sp"/>
+        
+        <TextView android:id="@+id/sigle_up_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已报N人   渝中汉昌"
+            android:textSize="12sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button android:id="@+id/yue_qi_1"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="乐器"
+                android:textSize="8sp"/>
+            <Button android:layout_marginLeft="10dp"
+                android:id="@+id/xiao_xue_1"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="小学"
+                android:textSize="8sp"/>
+            
+            <TextView android:layout_marginLeft="10dp"
+                android:id="@+id/off_time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余n天"/>
+            
+            
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/course_img_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView android:id="@+id/grade_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="钢琴初级班"
+            android:textSize="16sp"/>
+        
+        <TextView android:id="@+id/sigle_up_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已报N人   渝中汉昌"
+            android:textSize="12sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button android:id="@+id/yue_qi_2"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="乐器"
+                android:textSize="8sp"/>
+            <Button android:layout_marginLeft="10dp"
+                android:id="@+id/xiao_xue_2"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="小学"
+                android:textSize="8sp"/>
+            
+            <TextView android:layout_marginLeft="10dp"
+                android:id="@+id/off_time_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余n天"/>
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/course_img_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView android:id="@+id/grade_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小提琴兴趣班"
+            android:textSize="16sp"/>
+        
+        <TextView android:id="@+id/sigle_up_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已报N人   渝中汉昌"
+            android:textSize="12sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            
+            <Button android:id="@+id/yue_qi_3"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="乐器"
+                android:textSize="8sp"/>
+            <Button android:layout_marginLeft="10dp"
+                android:id="@+id/xiao_xue_3"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="小学"
+                android:textSize="8sp"/>
+            
+            <TextView android:layout_marginLeft="10dp"
+                android:id="@+id/off_time_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余n天"/>
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/course_img_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <TextView android:id="@+id/grade_name_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="古典乐初级班"
+            android:textSize="16sp"/>
+        
+        <TextView android:id="@+id/sigle_up_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已报N人   渝中汉昌"
+            android:textSize="12sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button android:id="@+id/yue_qi_4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="乐器"
+                android:textSize="8sp"/>
+            <Button android:layout_marginLeft="10dp"
+                android:id="@+id/xiao_xue_4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="小学"
+                android:textSize="8sp"/>
+            
+            <TextView android:layout_marginLeft="10dp"
+                android:id="@+id/off_time_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余n天"/>
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+    
+    
+    </LinearLayout> 
+    
+  <!--   <com.ronghong.feralapp.customview.CustomGridView 
+        android:id="@+id/main_listview_item_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="5dip" 
+        android:horizontalSpacing="5dip"  >        
+    </com.ronghong.feralapp.customview.CustomGridView> -->
+
+</LinearLayout>

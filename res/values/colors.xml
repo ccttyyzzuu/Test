@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主色  -->
+    <color name="orange">#FA7122</color>
+    <color name="red">#F50723</color>
+    <!--辅助色  -->
+    <color name="aux_1">#F53907</color>
+    <color name="aux_2">#FF8417</color>
+    <color name="aux_3">#7FC41C</color>
+    <color name="aux_4">#5AACEC</color>
+    <color name="aux_5">#F53F99</color>
+    <color name="backColor">#EEEEEE</color>
+    <!--线条颜色  -->
+    <color name="line">#EDEDED</color>
+    <!--导航栏颜色  -->
+    <color name="navigation">#292929</color>
+    <!--标题颜色  -->
+    <color name="title">#051B28</color>
+    <!--正文24号字体色  -->
+    <color name="body_24">#3D4245</color>
+    <!--  -->
+    <color name="body_22">#686868</color>
+    <!--备注色  -->
+    <color name="remark">#9B9B9B</color> 
+</resources>

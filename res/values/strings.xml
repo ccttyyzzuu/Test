@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FeralApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="jianjie">\t\t重庆汉昌文化产业集团旗下汉昌移动互联网岗前实训基地是集软件开发和人才培养为一体的综合性培训机构，
+        重庆市政府、重庆互联网信息办公室、市教委、市经信委领导高度重视，
+        要求汉昌移动互联网肩起负培训重庆移动互联网人才的历史重任，各部门、各单位要积极配合，大胆支持“千百一”人才培养工程项目。
+    </string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:padding="25dp"
+        >
+        
+        <ImageView 
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/huangcircle"
+            />
+        
+        <TextView 
+            android:id="@+id/circle_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同城英语圈"
+            android:textSize="14sp"
+       		android:layout_toRightOf="@id/circle"
+       		android:layout_alignTop="@id/circle"
+       		android:layout_marginLeft="20dp"
+            />
+        
+         
+        <TextView 
+            android:id="@+id/signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热爱英语，疯狂英语"
+            android:textSize="14sp"
+            android:textColor="@color/zhengwen2"
+       		android:layout_toRightOf="@id/circle"
+       		android:layout_alignBottom="@id/circle"
+       		android:layout_marginLeft="20dp"
+            />
+        <TextView 
+            android:id="@+id/people_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="800"
+            android:textColor="@color/zhengwen2"
+            android:textSize="8sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/circle_name"
+            />
+        <ImageView 
+            android:id="@+id/xiaoren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rub_course_group_person_number"
+            android:layout_toLeftOf="@id/people_number"
+            android:layout_alignBottom="@id/people_number"
+            />
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

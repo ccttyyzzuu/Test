@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/main_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重庆"
+            android:textColor="@color/orange"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/main_xiala_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rub_course_pull_down_menu" />
+
+        <AutoCompleteTextView
+            android:id="@+id/main_autoComplete"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/butn_style"
+            android:text="AutoComplete" />
+
+        <ImageView
+            android:id="@+id/main_notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/rub_course_non_ordered" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/main_ad_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ListView
+        android:id="@+id/main_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/main_bottom_menu_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/rub_course_home_page_selected_bg"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/orange" />
+
+        <TextView
+            android:id="@+id/main_bottom_menu_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/rub_course_category_not_selected_bg"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@color/body_22" />
+
+        <TextView
+            android:id="@+id/main_bottom_menu_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/rub_course_group_not_selected_bg"
+            android:gravity="center"
+            android:text="圈子"
+            android:textColor="@color/body_22" />
+
+        <TextView
+            android:id="@+id/main_bottom_menu_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/rub_course_me_not_selected_bg"
+            android:gravity="center"
+            android:text="我"
+            android:textColor="@color/body_22" />
+    </LinearLayout>
+
+</LinearLayout>

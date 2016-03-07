@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout android:id="@+id/login_and_register_navigation"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        
+        <TextView android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rub_course_back_icon"/>
+        <TextView android:layout_marginLeft="10dp"
+            android:id="@+id/page_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="设置title"
+            android:gravity="center"
+            android:textColor="@color/navigation"
+            android:textSize="17sp"/>
+        <TextView android:id="@+id/ORregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textColor="@color/orange"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/backColor"/>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText android:id="@+id/input_info"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:hint="请输入验证码"/>
+            
+            <TextView android:id="@+id/get_security_code"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="重新发送+时间"
+               android:textColor="@color/body_22"/>            
+            
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText android:id="@+id/new_password"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:hint="设置新密码"/>
+            
+            <TextView android:id="@+id/getCode"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="重新发送+时间"
+               android:textColor="@color/body_22"
+               android:visibility="gone"/>            
+            
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/ok"
+            android:layout_centerHorizontal="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oringe_butn"
+            android:text="ok"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"/>
+        
+        <LinearLayout android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            
+            <TextView android:layout_marginLeft="20dp"
+             android:id="@+id/agreement"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我已阅读并同意"/>
+            
+            <TextView android:id="@+id/terms_of_service"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="蹭课服务条款"
+               android:textColor="@color/orange"/>
+            
+            <TextView               
+               android:id="@+id/forgetPassword"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="right"
+               android:text="忘记密码"
+               android:gravity="right"
+               android:textColor="@color/orange"/>            
+            
+        </LinearLayout>
+        
+    
+
+</LinearLayout>

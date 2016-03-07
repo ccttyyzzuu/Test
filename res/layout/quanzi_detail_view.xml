@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/beijingse">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    >
+	    
+	    <include 
+	        layout="@layout/top_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        />
+	    
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="11.5"
+	        android:orientation="vertical"
+	        android:background="@color/white"
+	        >
+	        
+	        <ImageView 
+	            android:id="@+id/guanggao"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/guanggao"
+	            android:scaleType="fitXY"
+	            />
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="10dp"
+	            android:paddingLeft="12dp"
+	            android:paddingRight="12dp"
+	            android:paddingBottom="10dp"
+	            >
+	            
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/zhiding"
+	                android:text="置顶"
+	                android:textSize="12sp"
+	                android:textColor="@color/minorZi"
+	                android:layout_gravity="center_vertical"
+	                android:paddingLeft="3dp"
+	                android:paddingRight="3dp"
+	                />
+	            
+	            <TextView 
+	                android:id="@+id/zhiding_title"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="6dp"
+	                android:textSize="15sp"
+	                android:textColor="@color/cijititle"
+	                android:text="中国文学大典——三百部"
+	                />
+	         </LinearLayout>
+	         
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:paddingTop="10dp"
+	            android:paddingLeft="12dp"
+	            android:paddingRight="12dp"
+	            android:paddingBottom="10dp"
+	            >
+	            
+	            <TextView 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/zhiding"
+	                android:text="置顶"
+	                android:textSize="12sp"
+	                android:textColor="@color/minorZi"
+	                android:layout_gravity="center_vertical"
+	                android:paddingLeft="3dp"
+	                android:paddingRight="3dp"
+	                />
+	            
+	            <TextView 
+	                android:id="@+id/zhiding_title2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="6dp"
+	                android:textSize="15sp"
+	                android:textColor="@color/cijititle"
+	                android:text="中国文学大典——三百部"
+	                />
+	         </LinearLayout>
+	         
+	        <ListView 
+	            android:id="@+id/quanzi_list"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            ></ListView>
+	    </LinearLayout>
+	</LinearLayout>
+	
+	<ImageView
+	    android:id="@+id/add_quanzi"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/rub_course_build_posts_non_sel"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="30dp"
+	    android:layout_marginBottom="15dp"
+	    />
+</RelativeLayout>

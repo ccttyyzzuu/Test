@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/about_us_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rub_course_back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="@color/navigation"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/about_us_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/about_us_image_style" />
+
+        <TextView
+            android:id="@+id/about_us_app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_us_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="蹭课"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/about_us_app_banben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_us_app_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="版本 1.01"
+            android:textColor="@color/remark"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/about_us_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="		蹭课课堂网致力于打造集实用性，互动性，趣味性为一体的在线英语学习平台，网站名称“蹭课课堂”寓意带领广大的英语学习爱好者在快乐中轻松学习英语。网站于2008年初上线，是国内最受欢迎的开放式英语学习网站，已经赢得越来越多英语爱好的的信任与支持，已成为国内知名的英语学习网站之一。"
+            android:textColor="@color/body_22"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/about_us_app_service_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/about_us_gongshi"
+            android:layout_centerHorizontal="true"
+            android:text="服务条款"
+            android:textColor="@color/aux_1"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/about_us_gongshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="重庆重庆重庆科技有限公司"
+            android:textColor="@color/body_22"
+            android:textSize="11sp" />
+    </RelativeLayout>
+
+</LinearLayout>

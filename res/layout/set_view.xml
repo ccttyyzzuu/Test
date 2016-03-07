@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/beijingse" >
+    <!-- 头部标题控件 -->
+    <include layout="@layout/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="11.5"
+	    android:orientation="vertical"
+	    android:background="@color/white"
+	    android:layout_marginTop="10dp"
+	     >
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="15dp"
+	        android:paddingTop="12dp"
+	        android:paddingBottom="12dp"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="关于我们"
+	            android:textSize="14sp"
+	            android:textColor="@color/cijititle"
+	            />
+	        
+	        <ImageView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/rub_course_go_to_next_right"
+	            android:layout_alignParentRight="true"/>
+	    </RelativeLayout>
+	    
+	     <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="15dp"
+	        android:paddingTop="12dp"
+	        android:paddingBottom="12dp"
+	        >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="清空缓存"
+	            android:textSize="14sp"
+	            android:textColor="@color/cijititle"
+	            />
+	        
+	        <ImageView 
+	            android:id="@+id/button_right"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/rub_course_go_to_next_right"
+	            android:layout_alignParentRight="true"/>
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="11sp"
+	            android:textColor="@color/zhengwen2"
+	            android:text="2.01MB"
+	            android:layout_toLeftOf="@id/button_right"
+	            android:layout_marginRight="20dp"
+	            />
+	    </RelativeLayout>
+	    
+	     <!-- 退出按钮 -->
+	     <Button 
+	         android:id="@+id/exit"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="22dp"
+	         android:layout_marginRight="22dp"
+	         android:layout_marginTop="15dp"
+	         android:paddingTop="8dp"
+	         android:paddingBottom="8dp"
+	         android:background="@drawable/rub_course_dialog_search"
+	         android:text="退出账号"
+	         android:textSize="14sp"
+	         android:textColor="@color/mainJu"
+	         android:gravity="center"
+	         />
+	</LinearLayout>
+	
+	
+</LinearLayout>

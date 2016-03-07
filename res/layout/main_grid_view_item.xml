@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <ImageView android:id="@+id/course_img_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher"/>
+        <TextView android:id="@+id/grade_name_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="古典乐初级班"
+            android:textSize="16sp"/>
+        
+        <TextView android:id="@+id/sigle_up_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已报N人   渝中汉昌"
+            android:textSize="12sp"/>
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button android:id="@+id/yue_qi_4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="乐器"
+                android:textSize="8sp"/>
+            <Button android:layout_marginLeft="10dp"
+                android:id="@+id/xiao_xue_4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:background="@drawable/butn_style"
+                android:text="小学"
+                android:textSize="8sp"/>
+            
+            <TextView android:layout_marginLeft="10dp"
+                android:id="@+id/off_time_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩余n天"/>
+            
+            
+        </LinearLayout>
+
+</LinearLayout>
