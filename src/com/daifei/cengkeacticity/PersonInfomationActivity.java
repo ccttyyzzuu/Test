@@ -1,4 +1,4 @@
-package com.daifei.cengkeacticity;
+﻿package com.daifei.cengkeacticity;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -25,7 +25,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 /**
- * ��������ҳ��
+ *   ��������ҳ��
  * @author Administrator
  *
  */
