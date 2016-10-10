@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 hello world!!!
 daifei branch
 daifei daifei
 daifei test1
 daifei test2
-=======
-hello world!!!
->>>>>>> parent of 5bf13b4... 111
